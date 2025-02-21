@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabecalho{
+    background-color: #383D58;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-image-width: 10;
+}
+.cabecalho-imagem{
+    width: 20%;
+}
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+
+
+.corpo-1{
+    background-image: linear-gradient(#383D58,#427a9c);
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.corpo-2{
+    width: 35%;
+    padding: 24px;
+}
+.corpo-titulo{
+    padding: 24px;
+    align-items: left;
+    justify-content: left;
+    font-size: 50px;
+}
+.corpo-titulo2{
+    padding: 24px;
+    align-items: left;
+    justify-content: left;
+    font-size: 45px;
+}
+.corpo-texto{
+    font-size: 30px;
+}
+.corpo-imagem{
+    width:50%;
+    border-radius: 45px;
+    padding: 24px;
+    filter:drop-shadow(10px 10px 10px #383D58) ;
+}
+
+
+.corpo-3{
+    background-image: linear-gradient(#427a9c,#4EBFE9);
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.corpo-titulo-3{
+    padding: 24px;
+    font-size: 50px;
+}
+.corpo-4{
+    width: 35%;
+    padding: 24px;
+}
+.corpo-imagem2{
+    width:30%;
+    border-radius: 45px;
+    padding: 24px;
+    filter:drop-shadow(10px 10px 10px #383D58) ;
+}
+
+.corpo-texto2{
+    font-size: 30px;
+}
+.corpo-texto3{
+    font-size: 30px;
+}
+.corpo-texto4{
+    font-size: 20px;
+}
+
+.exemplo_1{
+    background-image: url(haj_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.exemplos{
+    padding: 24px 0;
+    align-items: center;
+    justify-content: space-around;
+}
+.exemplo_img1{
+    width: 15%;
+    border-radius: 45px;
+    padding: 24px;
+    filter: drop-shadow(7px 7px 7px #383D58);
+}
+
+.exemplo_1{
+    padding: 24px 0;
+}
+.exemplo_img1{
+    width: 120px;
+}
+
+.exemplos{
+    text-align: center;
+    padding: 16px 0;
+    color:white
+}
